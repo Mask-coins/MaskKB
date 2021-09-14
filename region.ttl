@@ -4,10 +4,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xs:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
-@prefix dbpj: <http://ja.dbpedia.org/resource/> .
-@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
 
-mr:茨城県 owl:sameAs dbpj:茨城県 .
-mr:茨城県つくば市 owl:sameAs dbpj:つくば市 ;
-    dbpedia-owl:location mr:茨城県 .
+mr:茨城県 rdfs:label "茨城県@ja".
+mr:茨城県つくば市 rdfs:label "つくば市@ja";
+               mo:location mr:茨城県 .
+mr:茨城県つくば市天王台 rdfs:label "天王台@ja";
+              mo:location mr:茨城県つくば市 .
 
