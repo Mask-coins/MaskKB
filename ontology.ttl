@@ -1,4 +1,4 @@
-@prefix mo:  <https://github.com/Mask-coins/MaskKB/region.ttl#> .
+@prefix mo:  <https://github.com/Mask-coins/MaskKB/ontology.ttl#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xs:   <http://www.w3.org/2001/XMLSchema#> .
@@ -6,4 +6,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 mo:location a owl:Ontology ;
-                dc:title "location" .
+            dc:title "location" .
+
+mo:AreaCode a owl:Ontology ;
+            dc:title "AreaCode" .
+
+mo:PostalCode a owl:Ontology ;
+            dc:title "PostalCode" .
+
+
