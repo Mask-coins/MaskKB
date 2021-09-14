@@ -2,4 +2,7 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xs:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <https://www.w3.org/TR/2004/REC-owl-semantics-20040210/#> .
+@prefix dbpj: <http://ja.dbpedia.org/resource/> .
 
+:茨城県つくば市 owl:sameAs dbpj:つくば市 .
