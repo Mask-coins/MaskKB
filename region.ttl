@@ -5,9 +5,12 @@
 @prefix xs:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 
-mr:茨城県 rdfs:label "茨城県@ja".
-mr:茨城県つくば市 rdfs:label "つくば市@ja";
-               mo:location mr:茨城県 .
-mr:茨城県つくば市天王台 rdfs:label "天王台@ja";
-              mo:location mr:茨城県つくば市 .
 
+mr:北海道 rdfs:label "北海道";
+       mo:AreaCode "01" .
+mr:北海道札幌市中央区 rdfs:label "札幌市中央区";
+             mo:location mr:北海道;
+             mo:AreaCode "01101" .
+mr:北海道札幌市中央区旭ケ丘 rdfs:label "旭ケ丘";
+                mo:location mr:北海道札幌市中央区;
+                mo:PostalCode "0640941" .
